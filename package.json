@@ -15,6 +15,9 @@
     "test": "BABEL_ENV=test mocha -r ts-node/register test/**.ts",
     "coverage": "nyc npm run test",
     "types": "tsc src/index.ts --target es5 --declaration --outDir ./types --downlevelIteration --emitDeclarationOnly"
+    "engines": {
+      "node": "16.x"
+    },
   },
   "repository": {
     "type": "git",
